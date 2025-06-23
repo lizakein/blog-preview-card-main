@@ -89,7 +89,7 @@ body {
 
 .author-block {
     display: flex;
-    margin-top: auto;
+    margin-block-start: auto;
     align-items: center;    
 }
 
@@ -107,13 +107,13 @@ body {
     font-weight: 800;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
     .card {
         width: 74%;
     }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     .card {
         width: 74%;
         height: auto;
