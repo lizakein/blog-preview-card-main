@@ -36,10 +36,10 @@ body {
     padding: 1.6rem;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 8px 8px 0 var(--main-text-color);
+    box-shadow: 0.5rem 0.5rem 0 var(--main-text-color);
     background-color: var(--card-background);
     border: 1px solid var(--main-text-color);
-    border-radius: 20px;    
+    border-radius: 1.5rem;    
 }
 
 .illustration-article {
@@ -61,7 +61,7 @@ body {
     line-height: 2;
     text-align: center;
     background-color: var(--primary-color);  
-    border-radius: 4px;   
+    border-radius: 0.25rem;   
 }
 
 .date {
@@ -96,7 +96,6 @@ body {
 .author-avatar {
     display: inline-block;
     width: 35px;
-    height: 35px;
     vertical-align: middle;   
 }
 
@@ -138,7 +137,7 @@ body {
     }
 
     .author-avatar {
-        width: 32px;
-        height: 32px;
+        width: 2rem;
+        height: 2rem;
     }
 }
